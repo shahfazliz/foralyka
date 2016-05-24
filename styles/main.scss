@@ -1,0 +1,69 @@
+$outdoor-extra-symbol: #E47925;
+$outdoor-font-color: #55595D;
+$outdoor-font-color-inverted: #FEFFFF;
+$outdoor-background-color: #f2f2f2;
+
+body {
+    background-color: $outdoor-background-color;
+}
+
+.banner {
+    padding: 5px;
+    margin: 5px;
+}
+
+.banner {
+    div {
+        color: $outdoor-extra-symbol;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.navbar-default {
+    background-color: $outdoor-font-color;
+
+    .navbar-nav {
+        li {
+            a {
+                color: $outdoor-font-color-inverted;
+            
+                &:hover {
+                    color: $outdoor-font-color-inverted;
+                    font-weight:bold;
+                }
+                
+                &:visited {
+                    color: $outdoor-font-color-inverted;
+                }
+            }
+        }
+    }
+}
+
+.outback-motto {
+    color: $outdoor-font-color;
+    font-family: "Verveine W01 Regular";
+}
+
+.outback-dot {
+    font-family: "Verveine W01 Regular";
+    position:relative;
+    top:-6px;
+}
+
+.phone-group {
+    img {
+        margin-bottom: 5px;
+    }
+}
+
+.row {
+    display: flex;
+    align-items: flex-end;
+}
+
+.search-input {
+    margin:auto;
+    width:220px;
+}

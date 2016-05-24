@@ -1,0 +1,20 @@
+{
+  "name": "forAlyka",
+  "version": "1.0.0",
+  "description": "Test given by Alyka",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shahfazliz Shahron",
+  "license": "",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-animate": "^1.5.5",
+    "angular-ui-bootstrap": "^1.3.2",
+    "angular-ui-router": "^0.3.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4",
+    "normalize.css": "^4.1.1"
+  }
+}

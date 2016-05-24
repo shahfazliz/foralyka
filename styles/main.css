@@ -1,0 +1,43 @@
+body {
+  background-color: #f2f2f2; }
+
+.banner {
+  padding: 5px;
+  margin: 5px; }
+
+.banner div {
+  color: #E47925;
+  font-size: 20px;
+  font-weight: bold; }
+
+.navbar-default {
+  background-color: #55595D; }
+  .navbar-default .navbar-nav li a {
+    color: #FEFFFF; }
+    .navbar-default .navbar-nav li a:hover {
+      color: #FEFFFF;
+      font-weight: bold; }
+    .navbar-default .navbar-nav li a:visited {
+      color: #FEFFFF; }
+
+.outback-motto {
+  color: #55595D;
+  font-family: "Verveine W01 Regular"; }
+
+.outback-dot {
+  font-family: "Verveine W01 Regular";
+  position: relative;
+  top: -6px; }
+
+.phone-group img {
+  margin-bottom: 5px; }
+
+.row {
+  display: flex;
+  align-items: flex-end; }
+
+.search-input {
+  margin: auto;
+  width: 220px; }
+
+/*# sourceMappingURL=main.css.map */
