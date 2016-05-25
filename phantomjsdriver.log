@@ -1,0 +1,152 @@
+[INFO  - 2016-05-24T09:11:18.511Z] GhostDriver - Main - running on port 31356
+[INFO  - 2016-05-24T09:11:18.612Z] Session [79a20500-218f-11e6-9af3-6f55e19992a0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T09:11:18.612Z] Session [79a20500-218f-11e6-9af3-6f55e19992a0] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T09:11:18.613Z] Session [79a20500-218f-11e6-9af3-6f55e19992a0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T09:11:18.613Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 79a20500-218f-11e6-9af3-6f55e19992a0
+[ERROR - 2016-05-24T09:11:20.474Z] Session [79a20500-218f-11e6-9af3-6f55e19992a0] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T09:11:20.474Z] Session [79a20500-218f-11e6-9af3-6f55e19992a0] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T09:11:20.667Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T09:13:40.095Z] GhostDriver - Main - running on port 7596
+[INFO  - 2016-05-24T09:13:40.170Z] Session [ce020e60-218f-11e6-a106-6fefd0d5e22d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T09:13:40.170Z] Session [ce020e60-218f-11e6-a106-6fefd0d5e22d] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T09:13:40.170Z] Session [ce020e60-218f-11e6-a106-6fefd0d5e22d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T09:13:40.171Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ce020e60-218f-11e6-a106-6fefd0d5e22d
+[ERROR - 2016-05-24T09:13:41.949Z] Session [ce020e60-218f-11e6-a106-6fefd0d5e22d] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T09:13:41.950Z] Session [ce020e60-218f-11e6-a106-6fefd0d5e22d] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T09:13:42.133Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T09:13:54.242Z] GhostDriver - Main - running on port 23877
+[INFO  - 2016-05-24T09:13:54.355Z] Session [d6765ce0-218f-11e6-a839-8933e088cbae] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T09:13:54.355Z] Session [d6765ce0-218f-11e6-a839-8933e088cbae] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T09:13:54.355Z] Session [d6765ce0-218f-11e6-a839-8933e088cbae] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T09:13:54.355Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d6765ce0-218f-11e6-a839-8933e088cbae
+[ERROR - 2016-05-24T09:13:56.079Z] Session [d6765ce0-218f-11e6-a839-8933e088cbae] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T09:13:56.080Z] Session [d6765ce0-218f-11e6-a839-8933e088cbae] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T09:13:56.272Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T09:14:55.018Z] GhostDriver - Main - running on port 25764
+[INFO  - 2016-05-24T09:14:55.107Z] Session [faac88f0-218f-11e6-b422-79cf7aed7353] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T09:14:55.107Z] Session [faac88f0-218f-11e6-b422-79cf7aed7353] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T09:14:55.107Z] Session [faac88f0-218f-11e6-b422-79cf7aed7353] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T09:14:55.107Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: faac88f0-218f-11e6-b422-79cf7aed7353
+[ERROR - 2016-05-24T09:14:56.832Z] Session [faac88f0-218f-11e6-b422-79cf7aed7353] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T09:14:56.833Z] Session [faac88f0-218f-11e6-b422-79cf7aed7353] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T09:14:57.016Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T10:03:06.348Z] GhostDriver - Main - running on port 30172
+[INFO  - 2016-05-24T10:03:06.450Z] Session [b60c4fd0-2196-11e6-8f1f-37508cbbb30b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T10:03:06.450Z] Session [b60c4fd0-2196-11e6-8f1f-37508cbbb30b] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T10:03:06.450Z] Session [b60c4fd0-2196-11e6-8f1f-37508cbbb30b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T10:03:06.450Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b60c4fd0-2196-11e6-8f1f-37508cbbb30b
+[ERROR - 2016-05-24T10:03:08.255Z] Session [b60c4fd0-2196-11e6-8f1f-37508cbbb30b] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T10:03:08.256Z] Session [b60c4fd0-2196-11e6-8f1f-37508cbbb30b] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T10:03:08.440Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T10:12:50.529Z] GhostDriver - Main - running on port 7617
+[INFO  - 2016-05-24T10:12:50.605Z] Session [123b4a80-2198-11e6-8d2f-e1cf415b2482] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T10:12:50.605Z] Session [123b4a80-2198-11e6-8d2f-e1cf415b2482] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T10:12:50.605Z] Session [123b4a80-2198-11e6-8d2f-e1cf415b2482] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T10:12:50.606Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 123b4a80-2198-11e6-8d2f-e1cf415b2482
+[ERROR - 2016-05-24T10:12:52.491Z] Session [123b4a80-2198-11e6-8d2f-e1cf415b2482] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T10:12:52.492Z] Session [123b4a80-2198-11e6-8d2f-e1cf415b2482] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T10:12:52.685Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T10:15:07.705Z] GhostDriver - Main - running on port 18428
+[INFO  - 2016-05-24T10:15:07.778Z] Session [63fe13c0-2198-11e6-a8ae-f3dfaae800e6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T10:15:07.778Z] Session [63fe13c0-2198-11e6-a8ae-f3dfaae800e6] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T10:15:07.779Z] Session [63fe13c0-2198-11e6-a8ae-f3dfaae800e6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T10:15:07.779Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 63fe13c0-2198-11e6-a8ae-f3dfaae800e6
+[ERROR - 2016-05-24T10:15:09.604Z] Session [63fe13c0-2198-11e6-a8ae-f3dfaae800e6] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T10:15:09.604Z] Session [63fe13c0-2198-11e6-a8ae-f3dfaae800e6] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T10:15:09.804Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-05-24T10:16:02.586Z] GhostDriver - Main - running on port 2273
+[INFO  - 2016-05-24T10:16:02.709Z] Session [84bbbae0-2198-11e6-baa8-1bb33d31b21d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-05-24T10:16:02.709Z] Session [84bbbae0-2198-11e6-baa8-1bb33d31b21d] - page.customHeaders:  - {}
+[INFO  - 2016-05-24T10:16:02.709Z] Session [84bbbae0-2198-11e6-baa8-1bb33d31b21d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-05-24T10:16:02.710Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 84bbbae0-2198-11e6-baa8-1bb33d31b21d
+[ERROR - 2016-05-24T10:16:04.481Z] Session [84bbbae0-2198-11e6-baa8-1bb33d31b21d] - page.onError - msg: Error: [$compile:ctreq] http://errors.angularjs.org/1.5.5/$compile/ctreq?p0=uibCarousel&p1=uibSlide
+gb@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:71:266
+n@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:66:69
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:76:291
+https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:130:227
+$eval@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:144:467
+$digest@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:142:52
+$apply@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:145:256
+l@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:97:61
+H@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:101:297
+onload@https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:102:230
+[ERROR - 2016-05-24T10:16:04.481Z] Session [84bbbae0-2198-11e6-baa8-1bb33d31b21d] - page.onError - stack:
+  (anonymous function) (https://foralyka-shahfazliz.c9users.io/node_modules/angular/angular.min.js:117)
+[INFO  - 2016-05-24T10:16:04.677Z] ShutdownReqHand - _handle - About to shutdown

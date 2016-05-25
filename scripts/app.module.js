@@ -3,9 +3,7 @@
     'use strict';
     
     angular.module('App', [
-        'ui.router', 
-        'ngAnimate', 
-        'ui.bootstrap',
+        'ui.router',
         'Home'
     ]);
 }());

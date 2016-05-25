@@ -5,8 +5,13 @@
     function HomeController() {
         var self = this,
             slides = [{
-                image : 'images/sildes/106057.png'
-            }]
+                id: 1,
+                image : 'images/slides/106057.png',
+                text: 'lalala'
+            }, {
+                id: 2,
+                image: 'images/slides/Layer10.png'
+            }];
         
         self.slides = slides;
     }

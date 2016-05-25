@@ -20,8 +20,14 @@ body {
     }
 }
 
+#main-content {
+    margin-top: -20px;
+}
+
 .navbar-default {
     background-color: $outdoor-font-color;
+    border-color: $outdoor-font-color;
+    border-radius: 0;
 
     .navbar-nav {
         li {

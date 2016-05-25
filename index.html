@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html ng-app="App">
+<html ng-app="App" ng-cloak>
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>Outback Initiatives</title>
 		
 		<link rel="stylesheet" href="node_modules/normalize.css/normalize.css" type="text/css" />
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
@@ -13,7 +13,7 @@
 	
 	<body>
 		<!--Banner-->
-		<div class="row banner">
+		<div id="banner" class="row banner">
 			<div class="col-sm-offset-1 col-sm-3 col-xs-12 text-right">
 				<img src="images/outback_logo.png"></img>
 			</div>
@@ -40,7 +40,7 @@
 		<!--/Banner-->
 		
 		<!--Navigation-->
-		<nav class="navbar navbar-default">
+		<nav id="navigation" class="navbar navbar-default">
 			<div class="container-fluid">
 				
 				<div class="navbar-header">
@@ -72,20 +72,21 @@
 		<!--/Navigation-->
 
 		<!--Main content-->
-		<div ui-view></div>
+		<div id="main-content" ui-view></div>
 		
 		<!--Footer-->
-		<div>
+		<div id="footer">
 			<div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
 		</div>
 	</body>
 	
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
-	<script type="text/javascript" src="node_modules/angular-animate/angular-animate.min.js"></script>
-	<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
-	<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+	<!--<script type="text/javascript" src="node_modules/angular-animate/angular-animate.min.js"></script>-->
+	<!--<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>-->
+	<!--<script type="text/javascript" src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>-->
 	
 	<script type="text/javascript" src="scripts/home/home.module.js"></script>
 	<script type="text/javascript" src="scripts/home/home.config.js"></script>
