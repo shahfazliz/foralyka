@@ -6,7 +6,7 @@
 		
 		<link rel="stylesheet" href="node_modules/normalize.css/normalize.css" type="text/css" />
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-		<link rel="stylesheet" href="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-csp.css" type="text/css" />
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" type="text/css" />
 		<link rel="stylesheet" href="styles/font.css" type="text/css" />
 		<link rel="stylesheet" href="styles/main.css" type="text/css" />
 	</head>
@@ -14,15 +14,15 @@
 	<body>
 		<!--Banner-->
 		<div id="banner" class="row banner">
-			<div class="col-sm-offset-1 col-sm-3 col-xs-12 text-right">
-				<img src="images/outback_logo.png"></img>
+			<div class="col-sm-offset-1 col-sm-3 col-xs-12">
+				<img src="images/outback-logo.png"></img>
 			</div>
-			<div class="col-sm-3 col-xs-12">
-				<span class="text-uppercase outback-motto">BUILDING LEADERS</span>
+			<div class="col-sm-4 col-xs-12">
+				<span class="outback-motto">BUILDING LEADERS</span>
 				<span class="outback-dot">.</span>
-				<span class="text-uppercase outback-motto">TRANSFORMING LIVES</span>
+				<span class="outback-motto">TRANSFORMING LIVES</span>
 			</div>
-			<div class="col-sm-5 col-xs-12 text-center">
+			<div class="col-sm-4 hidden-xs text-center">
 				<div class="phone-group">
 					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
 					<img src="images/1300532337.png"></img>
@@ -36,6 +36,10 @@
 					</span>
 				</div>
 			</div>
+			<!--<div class="visible-xs col-xs-12 phone-group">-->
+			<!--	<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>-->
+			<!--	<img src="images/1300532337.png"></img>-->
+			<!--</div>-->
 		</div>
 		<!--/Banner-->
 		
@@ -53,12 +57,27 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
+					<div class="visible-xs text-left">
+						<div class="input-group search-input" style="margin:10px;">
+							<input type="text" class="form-control" placeholder="Search">
+							<span class="input-group-btn">
+								<button class="btn btn-default" type="button">
+									<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+								</button>
+							</span>
+						</div>
+					</div>
 				</div>
 
 				<div id="navbar-collapse-outback"
 					 class="collapse navbar-collapse">
-					<div class="col-sm-2"></div>
+					<div class="col-sm-1">&nbsp;</div>
 					<ul class="nav navbar-nav">
+						<li>
+							<a ui-sref="home">
+								<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+							</a>
+						</li>
 						<li><a href="#">ABOUT US</a></li>
 						<li><a href="#">SERVICES</a></li>
 						<li><a href="#">PROGRAMS</a></li>
@@ -74,9 +93,72 @@
 		<!--Main content-->
 		<div id="main-content" ui-view></div>
 		
+		<!--Awards-->
+		<div id="award" class="text-center">
+			<a href="http://www.australianbusinessawards.com.au/">
+				<img src="images/awards/australian-business-award.png"></img>
+			</a>
+			<a href="http://australiantourismawards.com.au/">
+				<img src="images/awards/australian-tourism-award.png"></img>
+			</a>
+			<a href="http://www.wla.com.au/award152.html">
+				<img src="images/awards/australian-excellence-woman-leadership-award.png"></img>
+			</a>
+		</div>
+		<!--/Awards-->
+		
 		<!--Footer-->
 		<div id="footer">
-			<div>Font made from <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>is licensed by CC BY 3.0</div>
+			<div class="row">
+				<div class="col-sm-offset-1 col-sm-1 col-xs-6">
+					<p><b>HOME</b></p>
+					<p><b>ABOUT</b></p>
+					<p>Team</p>
+					<p>Case Studies</p>
+				</div>
+				<div class="col-sm-1 col-xs-6">
+					<p><b>SERVICE ENTERPRISE</b></p>
+					<p>Corporate</p>
+					<p>Agribusiness</p>
+					<p>Government</p>
+					<p>Solo Participants</p>
+					<p>Individuals</p>
+					<p>Woman & Youth</p>
+				</div>
+				<div class="col-sm-1 col-xs-6">
+					<p><b>PROGRAMS</b></p>
+					<p>Location</p>
+					<p>Upcoming</p>
+					<p>Registration</p>
+					<p>FAQ</p>
+				</div>
+				<div class="col-sm-1 col-xs-6">
+					<p><b>PARTNERS</b></p>
+					<p><b>NEWS</b></p>
+					<p>Upcoming</p>
+					<p>Blog</p>
+					<p>Photo Gallery</p>
+				</div>
+				<div class="col-sm-4 col-xs-12">
+					<div class="col-sm-12">
+						<b>SUBSCRIBE TO OUR NEWSLETTER</b>
+					</div>
+					<input type="text" name="name" placeholder="Name"/>
+					<input type="text" name="email" placeholder="Email"/>
+					<button style="background-color:#FFFFFF;border:none;clear:left;color:#C73B23;padding:10px 10px;margin:1px;">SUBMIT</button>
+				</div>
+				<div class="col-sm-3 col-xs-12">
+					<i class="fa fa-facebook fa-lg"></i>
+					<i class="fa fa-twitter fa-lg"></i>
+					<i class="fa fa-linkedin fa-lg"></i>
+					<i class="fa fa-instagram fa-lg"></i>
+					<i class="fa fa-youtube fa-lg"></i>
+				</div>
+			</div>
+			<div class="copyright row">
+				<div class="col-sm-6 col-xs-6 text-left">Copyright 2016</div>
+				<div class="col-sm-6 col-xs-6 text-right">website design alyka</div>
+			</div>
 		</div>
 	</body>
 	

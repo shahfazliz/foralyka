@@ -5,7 +5,7 @@
     function Config($stateProvider, $urlRouterProvider) {
         $stateProvider.state('home', {
             url:            '/',
-            templateUrl:    'scripts/home/home.html',
+            templateUrl:    'scripts/home/template/home.html',
             controller:     'HomeController',
             controllerAs:   'HomeController'
         });

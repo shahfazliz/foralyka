@@ -1,4 +1,3 @@
-<!--Carousel-->
 <div id="outback-home-carousel" class="carousel slide" data-ride="carousel" style="height:500px;">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -13,7 +12,16 @@
         <div class="item {{ $first?'active':'' }}" 
              ng-repeat="slide in HomeController.slides track by $index"
              style="height:100%; background-image: url('{{ slide.image }}');background-repeat: no-repeat;background-size: cover;">
-            <div class="carousel-caption">{{ slide.text }}</div>
+            <div ng-if="slide.title1 && slide.slogan"
+                 class="carousel-caption">
+                <div class="carousel-caption-content">
+                    <div class="caption-title-1">{{ slide.title1 }}</div>
+                    <div class="caption-title-2">{{ slide.title2 }}</div>
+                    <div class="caption-slogan">{{ slide.slogan }}</div>
+                </div>
+                <button class="find-out-button"
+                        style="bottom:18px;position:relative;left:200px;z-index:100;">FIND OUT MORE</button>
+            </div>
         </div>
     </div>
 
@@ -28,12 +36,3 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<!--/Carousel-->
-
-<!--What we do-->
-<!--Who are you-->
-<!--Invest in yourself-->
-<!--Testimonials-->
-<!--Featured programs-->
-<!--Upcomming events-->
-<!--Awards-->

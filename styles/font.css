@@ -1,8 +1,35 @@
 @font-face {font-family: "Verveine W01 Regular";
-  src: url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.eot"); /* IE9*/
-  src: url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.woff2") format("woff2"), /* chrome、firefox */
-  url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.woff") format("woff"), /* chrome、firefox */
-  url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.svg#Verveine W01 Regular") format("svg"); /* iOS 4.1- */
+  src: url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.eot"); /* IE9*/
+  src: url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Verveine_W01_Regular/@font-face/b3fb273a4c9c465126f860b59809fd4a.svg#Verveine W01 Regular") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Museo Sans W01 100";
+  src: url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.eot"); /* IE9*/
+  src: url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Museo_Sans_W01_100/@font-face/272715a0670500b7e64828c113fb6dbc.svg#Museo Sans W01 100") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Museo Sans W01 700";
+  src: url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.eot"); /* IE9*/
+  src: url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Museo_Sans_W01_700/@font-face/668ac2105fe581bdda3e4fcf1c62933f.svg#Museo Sans W01 700") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Museo Sans W01 900";
+  src: url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.eot"); /* IE9*/
+  src: url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Museo_Sans_W01_900/@font-face/7463bc8d2f1ad1feebddbb2c9e084f80.svg#Museo Sans W01 900") format("svg"); /* iOS 4.1- */
 }
